@@ -1,0 +1,10 @@
+{
+  "name": "bitcoin",                                # string: name of the crypto from coingecko
+  "crypto": true,                                   # bool: always true for crypto
+  "ticker": "BTCUSDT",                               # string/OPTIONAL: overwrites display name of bot
+  "color": true,                                    # bool/OPTIONAL: requires nickname
+  "decimals": 2,                                    # int/OPTIONAL: set number of decimal places
+  "nickname": true,                                 # bool/OPTIONAL: display information in nickname vs activity
+  "frequency": 5,                                  # int/OPTIONAL: seconds between refresh
+  "discord_bot_token": "xxxxxxxxxxxxxxxxxxxxxxxx"   # string: dicord bot token
+}
